@@ -10,6 +10,8 @@ import { GlobalStateProvider } from 'globalState'
 import 'globalStyles'
 import { setupClient } from 'apolloClient'
 
+import { requestProvider } from 'requestProvider'
+
 window.addEventListener('load', async () => {
   let client
 
@@ -25,8 +27,10 @@ window.addEventListener('load', async () => {
         ensAddress: process.env.REACT_APP_ENS_ADDRESS
       })
     } else {
+      const customProvider = await requestProvider()
       await setupENS({
-        reloadOnAccountsChange: true
+        reloadOnAccountsChange: true,
+        customProvider
       })
     }
   } catch (e) {

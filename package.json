@@ -12,7 +12,7 @@
     "@ensdomains/ethregistrar": "^1.2.2",
     "@ensdomains/react-ens-address": "^0.0.16",
     "@ensdomains/resolver": "^0.1.6",
-    "@ensdomains/ui": "1.1.22",
+    "@walletconnect/web3-provider": "^1.0.0-beta.38",
     "apollo-cache-inmemory": "^1.2.9",
     "apollo-client": "^2.4.5",
     "apollo-link": "^1.2.2",
@@ -47,6 +47,7 @@
     "react-spring": "^6.1.7",
     "react-tooltip": "^3.9.2",
     "react-transition-group-plus": "^0.5.3",
+    "web3connect": "^1.0.0-beta.24",
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {

@@ -1318,11 +1318,6 @@
     ethers "^4.0.32"
     lodash "^4.17.13"
 
-"@ensdomains/resolver@0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@ensdomains/resolver/-/resolver-0.1.10.tgz#c376f22f4941fed61c48800eea633d15424bf647"
-  integrity sha512-r+zkzH/sx0PyFhvC+3jAW53kvBsYqzeVJ4xcaEKNi5F/xX5BnGLshSn5z+9lMkiS+tFf1Ucs7/V039W1KZWmaw==
-
 "@ensdomains/resolver@0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@ensdomains/resolver/-/resolver-0.1.12.tgz#44ca93d6a3c4fa0a4080f2d59496ca5cd011d4e5"
@@ -1332,29 +1327,6 @@
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/@ensdomains/resolver/-/resolver-0.1.9.tgz#013bc88397c2c204737aaaf602380145d845e09e"
   integrity sha512-eSZIEWi2UcxNZXJhAeoTYUZr20fyly9eMUy17WQ5UjszXf0QgE1Zzh/Oj9Mhl0i8s7xqoPOsntr2ZI0JhsX78w==
-
-"@ensdomains/ui@1.1.22":
-  version "1.1.22"
-  resolved "https://registry.yarnpkg.com/@ensdomains/ui/-/ui-1.1.22.tgz#182be10ede72b4700d0d569adc3dbd26704f9be0"
-  integrity sha512-eIOb+eacUUSBttsSPFSUtgivSASn3q0dXtvqPXQprJQiPQ4MyAA+xICMOIgj9Zarw2ZwYQVJ8XnNjKNHqGm/2g==
-  dependencies:
-    "@0xproject/utils" "^2.0.2"
-    "@babel/runtime" "^7.4.4"
-    "@ensdomains/dnsregistrar" "^0.3.9"
-    "@ensdomains/ens" "^0.3.5"
-    "@ensdomains/ens-022" "npm:@ensdomains/ens@0.2.2"
-    "@ensdomains/ethregistrar" "^1.2.2"
-    "@ensdomains/resolver" "0.1.10"
-    "@ethvault/iframe-provider" "0.1.9"
-    base58check "^2.0.0"
-    bech32 "^1.1.3"
-    bs58 "^4.0.1"
-    content-hash "^2.4.1"
-    cross-fetch "^3.0.2"
-    eth-ens-namehash "^2.0.8"
-    ethers "4.0.36"
-    js-sha3 "^0.8.0"
-    lodash "^4.17.11"
 
 "@ensdomains/ui@^1.1.15":
   version "1.1.15"
@@ -1379,7 +1351,7 @@
 
 "@ensdomains/ui@https://github.com/Velenir/ui.git#allow_skip_cache":
   version "1.1.31"
-  resolved "https://github.com/Velenir/ui.git#b335684e46ef52caeb31312b6948f47ccc7570da"
+  resolved "https://github.com/Velenir/ui.git#3ae569e3a84b8206e70fc278e92ca11a22274f20"
   dependencies:
     "@0xproject/utils" "^2.0.2"
     "@babel/runtime" "^7.4.4"
